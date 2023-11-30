@@ -1,0 +1,265 @@
+.notaprincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+   
+}
+
+
+.imagenes-horizontales{
+    width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.imagenes-verticales{
+    width: 40%;
+    margin: auto;
+    margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+.imagen-editorial{
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.lateral{
+    width: 35%;
+    margin-left: 1rem;
+}
+
+
+
+.footer{
+    margin-top: 3rem;
+    text-align: center;
+    background: #cfdef3;
+}
+
+
+.grilla{
+    display: grid;
+    grid-template-areas:"encabezado encabezado encabezado encabezado encabezado"
+                        "principal principal principal principal principal"
+                        "pie pie pie pie pie";
+    
+}
+
+.principal{
+    background-color: #cfdef3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.titulo-nota {
+    text-align: left;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.texto-bajada{
+    text-align: left;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(35, 35, 35);
+    font-style: italic;
+}
+.texto-alumnos{
+    text-align: left;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(35, 35, 35);
+    font-style: italic;
+}
+.texto-nota{
+text-align: justify;
+font-size: 14px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+margin: 2rem 2rem 2rem 2rem;
+}
+.texto-editorial{
+    text-align: justify;
+font-size: 14px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+margin: 2rem 2rem 2rem 2rem;
+}
+
+.autor{
+    text-align: left;
+    color: black;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.principal-seccion{
+    width: 85%;
+    background-color:  #cfdef3 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.titulo-seccion{
+        text-align: left;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+        font-weight: bold;
+        margin: 2rem;
+}
+    .secciones-notas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: #9aadc7;
+    margin-bottom: 2rem;
+    }
+    .seccion-individual{
+    background-color: white;
+    box-shadow: 2rem ;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+    }
+    
+    .link-secciones{
+        text-decoration: none;
+        color: black;
+    }
+
+    
+/*
+.Imagen{ 
+    width: 40%;
+    border-radius: 9px;
+    ;
+
+}
+.tam{
+    width: 100%;
+    border-radius: 9px;
+    border: 3px solid rgb(210, 179, 78);
+}  
+.tam1{
+    width: 98%;
+    border-radius: 9px;
+    border: 3px solid rgb(210, 179, 78);
+}  
+
+.tam2{
+    width: 85%;
+    border-radius: 9px;
+    border: 3px solid rgb(210, 179, 78);
+}  
+.tam3{
+    
+    margin-top: 1em;
+    width: 80%;
+    border-radius: 9px;
+    text-align: center;
+    border: 3px solid rgb(210, 179, 78);
+}
+.tam4{
+    margin-top: 1em;
+    width: 65%;
+    border-radius: 9px;
+    text-align: center;
+    border: 3px solid rgb(210, 179, 78);
+}
+.tam5{
+    margin-top: 1em;
+    width: 60%;
+    border: 3px solid rgb(210, 179, 78);
+    border-radius: 9px;
+}
+
+.tam6{
+    margin-top: 1em;
+    width: 45%;
+    border: 3px solid rgb(210, 179, 78);
+    border-radius: 9px;
+}
+
+
+
+.grilla{
+    display: grid;
+    grid-template-areas: "encabezado encabezado encabezado encabezado encabezado"
+                          "principal principal principal principal principal"
+                          "pie pie pie pie pie";
+                          height: 100vh;
+}
+
+.header{
+    grid-area: encabezado ;
+    background-color: #dd3636;
+
+}
+
+.principal{
+    grid-area: principal ;
+    background-color: #f3f6f6;
+    height: 80vh;
+
+}
+
+.pie{
+    grid-area: pie ;
+  
+}
+
+.secundario{
+    grid-area: secundario ;
+    
+}
+
+h1{
+    text-align: center;
+       
+}
+h4{
+    font size: 20px;
+       
+}
+
+.titulosec{
+    margin-top: 1em;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.divimagen{
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+*/
+
+
+

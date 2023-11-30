@@ -1,0 +1,50 @@
+html {
+	scroll-behavior: smooth; /*desplazamiento suave en el elemento*/
+	background: #f3f6f6;
+	
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	/*box-sizing: border-box;      Al utilizar border-box, el ancho y la altura especificados incluyen el relleno y el borde del elemento, en lugar de agregarlos adicionalmente. Esto significa que el tamaño total del elemento, incluido el relleno y el borde, se mantiene constante, facilitando el diseño y el control del diseño de la página.*/
+}
+
+body {
+	background: #f3f6f6;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	background: #fff0;
+    color:#000000;
+	height: 80px;
+	box-shadow: rgba(119, 119, 119, 0.444) 0px 8px 24px;  /*La sombra tiene un color en tono gris oscuro con una ligera transparencia, rgba (alfa, indica transparencia, valor de 0 a 1). La sombra se desplaza 0 píxeles horizontalmente, 8 píxeles verticalmente y tiene un desenfoque de 24 píxeles.*/
+	display: flex; /* Establece la propiedad de visualización del elemento <nav> como "flex". Esto permite que los elementos hijos del <nav> se coloquen en una línea horizontal y se ajusten automáticamente al espacio disponible dentro del <nav>. Es un diseño  flexible  y responsivo .*/
+	position: sticky;  /*se fijará en esa posición y se mantendrá visible mientras el usuario sigue haciendo scroll.*/
+	overflow: hidden; /*Oculta cualquier contenido adicional que pueda desbordar del elemento <nav>. */ 
+    }
+
+
+nav a {
+	height: 100%;
+	text-transform: uppercase;
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #000;
+	transition: .2s ease-in-out all;
+	font-weight: 500;
+	}
+	
+nav a:hover {
+	background: #f0f0f0;
+}	
+
+a {
+	text-decoration: none;
+}
+
+
